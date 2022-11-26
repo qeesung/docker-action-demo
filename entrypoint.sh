@@ -1,2 +1,5 @@
-echo "hello world"
-echo "hello qeesung"
+echo "hello world..."
+echo "Hello $1"
+time=$(date)
+echo "time=$time" >> $GITHUB_OUTPUT
+
